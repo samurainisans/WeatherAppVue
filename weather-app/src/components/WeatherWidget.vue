@@ -10,7 +10,7 @@ export default {
     PButton: Button
   },
   setup() {
-    const apiKey = 'd40cd2ab99541a8c74178e4cae461a6a'
+    const apiKey = 'YOUR TOKEN'
     const city = ref('')
     const weather = ref(null)
     const currentDate = new Date().toLocaleDateString('en-US', {
